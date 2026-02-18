@@ -23,6 +23,9 @@ run_834.bat  (simple double‑click runner for library version)
 output_examples/
 - sample_output_834.txt
 
+single_exe/
+- .exe builder, for power users to build for end-users.
+
 ---
 
 ## 🚀 Quick Start (Easiest)
@@ -41,7 +44,7 @@ output_examples/
 ### Option A – GUI (recommended)
 Double‑click:
 
-gui/mock_834_gui_nolibs.py
+gui/mock_834_gui_nolibs.py (mock_834_gui.py is preferred if you have pandas + openpyxl installed)
 
 Choose the Excel file → choose save location → click Generate.
 
